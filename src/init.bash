@@ -19,6 +19,21 @@ ellipsis.install() {
     echo "ellipsis.install : $@"
 }
 
+# Provide fake msg.print function
+msg.print() {
+    echo "$@"
+}
+
+# Provide fake msg.bold function
+msg.bold() {
+    msg.print "$@"
+}
+
+# Provide fake msg.log function
+log.fail() {
+    msg.print "$@"
+}
+
 # Provide fake os.platform function
 os.platform() {
     :
