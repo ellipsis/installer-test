@@ -2,6 +2,10 @@
 #
 # Replaces the ellipsis init.bash file for running tests
 
+# Output the name of the temp_dir
+echo "$tmp_dir"
+
+# Output the ellipsis path
 echo "Ellipsis path : $FINAL_ELLIPSIS_PATH"
 
 # Provide fake load function
