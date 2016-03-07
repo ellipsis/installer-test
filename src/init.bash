@@ -2,7 +2,7 @@
 #
 # Replaces the ellipsis init.bash file for running tests
 
-echo "Ellipsis path: $FINAL_ELLIPSIS_PATH"
+echo "Ellipsis path : $FINAL_ELLIPSIS_PATH"
 
 # Provide fake load function
 load() {
